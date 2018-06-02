@@ -1,0 +1,4 @@
+useDynLib(fkde, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+export('fkde', 'dfkde', 'dataGen', 'plotDen', 'MISE')

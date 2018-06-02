@@ -1,0 +1,11 @@
+Package: fkde
+Type: Package
+Title: Fast and exact kernel density and density derivative estimation
+Version: 1.0
+Date: 2018-06-02
+Author: David P. Hofmeyr
+Maintainer: David P. Hofmeyr <dhofmeyr@sun.ac.za>
+Description: Fast and exact density and density derivative estimation. 
+License: GPL-3
+Imports: Rcpp (>= 0.12.16), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
