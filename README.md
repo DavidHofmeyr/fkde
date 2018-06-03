@@ -11,4 +11,4 @@ install_github("DavidHofmeyr/fkde")
 
 library(fkde)
 
-help(fkde-package)
+help('fkde-package')
