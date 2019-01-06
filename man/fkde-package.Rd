@@ -11,6 +11,9 @@
 \details{
   The main functions are fkde and dfkde which offer fast kernel density and density derivative estimation respectively. Currently dfkde only provides evaluation at the sample points, but will updated soon to include evaluation on a grid and a sped up approximate method using binning. Both functions require only a single argument, a vector containing a univariate sample of observations. Optional arguments can be seen in the documentation for the individual functions.
 }
+\references{
+  Hofmeyr, D. (2018) Fast exact univariate kernel density estimation. \emph{ArXiv preprint}, ArXiv 1806.00690.
+}
 \author{
 David P. Hofmeyr
 }
