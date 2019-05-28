@@ -7,5 +7,5 @@ Author: David P. Hofmeyr
 Maintainer: David P. Hofmeyr <dhofmeyr@sun.ac.za>
 Description: Fast and exact density and density derivative estimation using the method of Hofmeyr, D. "Fast exact univariate kernel density estimation", ArXiv (2018).
 License: GPL-3
-Imports: Rcpp (>= 0.12.16), RcppArmadillo
+Imports: Rcpp (>= 0.12.16)
 LinkingTo: Rcpp, RcppArmadillo
